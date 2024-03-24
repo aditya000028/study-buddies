@@ -12,11 +12,7 @@ function MainNavigation() {
           return (
             <li key={index}>
               <Link to={item.path}>
-                <NavigationTile
-                  title={item.title}
-                  path={item.path}
-                  icon={item.icon}
-                />
+                <NavigationTile title={item.title} icon={item.icon} />
               </Link>
             </li>
           );
