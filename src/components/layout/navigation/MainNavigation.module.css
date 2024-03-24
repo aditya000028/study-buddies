@@ -1,0 +1,30 @@
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 10%;
+  position: fixed;
+  background-color: cadetblue;
+  align-items: center;
+}
+
+.navContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.navContainer li {
+  height: 100%;
+  width: 100%;
+}
+
+.navContainer a {
+  text-decoration: none;
+  color: black;
+}
