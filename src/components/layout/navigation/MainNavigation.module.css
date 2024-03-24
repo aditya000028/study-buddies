@@ -4,7 +4,7 @@
   height: 100%;
   width: 10%;
   position: fixed;
-  background-color: cadetblue;
+  background-color: rgb(95, 120, 160);
   align-items: center;
 }
 
@@ -20,11 +20,14 @@
 }
 
 .navContainer li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
   width: 100%;
 }
 
-.navContainer a {
+.navContainer li a {
   text-decoration: none;
   color: black;
 }
