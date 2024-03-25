@@ -1,45 +1,47 @@
-import { FaHome } from "react-icons/fa";
-import { FaUserCircle } from "react-icons/fa";
+import { FaHome, FaUserCircle, FaUserFriends, FaBookOpen, FaCalendar } from "react-icons/fa";
+import { BiSolidMessageSquareDetail } from "react-icons/bi";
+import { IoIosNotifications } from "react-icons/io";
+import { PiFilesFill } from "react-icons/pi";
 
 export const NAVIGATION_DATA = [
   {
     title: "Home",
     path: "/",
-    icon: <FaHome />
+    icon: <FaHome />,
   },
   {
     title: "Groups",
     path: "/groups",
-    icon: <FaHome />
+    icon: <FaBookOpen />,
   },
   {
     title: "Messages",
     path: "/messages",
-    icon: <FaHome />
+    icon: <BiSolidMessageSquareDetail />,
   },
   {
     title: "Friends",
     path: "/friends",
-    icon: <FaHome />
+    icon: <FaUserFriends />,
   },
   {
     title: "Notifications",
     path: "/notifications",
-    icon: <FaHome />
+    icon: <IoIosNotifications />,
   },
   {
     title: "Calendar",
     path: "/calendar",
-    icon: <FaHome />
+    icon: <FaCalendar />,
   },
   {
     title: "Files",
     path: "/files",
-    icon: <FaHome />
+    icon: <PiFilesFill />,
   },
   {
     title: "Profile",
     path: "/profile",
-    icon: <FaHome />
+    icon: <FaUserCircle />,
   },
 ];
