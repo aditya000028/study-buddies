@@ -1,0 +1,34 @@
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* Please update App.css .page margin-left value if this gets changed */
+  width: 10%;
+  position: fixed;
+  background-color: rgb(95, 120, 160);
+  align-items: center;
+}
+
+.navContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.navContainer li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.navContainer li a {
+  text-decoration: none;
+  color: black;
+}
