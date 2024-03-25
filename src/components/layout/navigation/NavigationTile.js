@@ -4,7 +4,7 @@ export default function NavigationTile(props) {
   return (
     <div className={classes.tileContent}>
       <div className={classes.icon}>{props.icon}</div>
-      <h3 className={classes.title}>{props.title}</h3>
+      <h4 className={classes.title}>{props.title}</h4>
     </div>
   );
 }

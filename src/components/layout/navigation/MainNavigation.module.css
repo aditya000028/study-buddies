@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  /* Please update App.css .page margin-left value if this gets changed */
   width: 10%;
   position: fixed;
   background-color: rgb(95, 120, 160);
